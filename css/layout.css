@@ -48,18 +48,48 @@ div .fa-location-dot  {
     font-size: 1.2rem;
 }
 
-#success {
+.border-primary{
+    border-radius: 1rem;
+    background-color: #526A8C!important;
+
+}
+.color-blue{
+  color: #526A8C;
+}
+.first-project{
+  background-color: #D5DBE7;
+  border-radius: 1rem;
+}
+
+.first-project-hand{
+  color: #526A8C;
+}
+.first-project-link{
+  text-decoration: none;
+}
+
+.first-project-link:hover{
+  background-color: #526A8C;
+  color: #D5DBE7;
+  padding: 5px;
+  border-radius: 1rem;
+}
+
+.first-project-color{
+  background-color: #526A8C;
+}
+#green{
   text-decoration: none;
   margin-left: 5px;
   color: #198754;
 }
 
-/* #success:hover {
-  color: #d9ecda;
+#green:hover {
+  color: #fdf3d2!important;
   background-color: #198754;
   padding: 5px;
   border-radius: 1rem;
-} */
+}
 
 .border-success {
     border-radius: 1rem;
@@ -97,19 +127,23 @@ div .fa-location-dot  {
   border-radius: 1rem;
 }
 
+
 .border-danger {
     border-radius: 1rem;
 }
 
+#red{
+  text-decoration: none;
+}
 .seven-wonders-project {
     text-decoration: none;
     margin-left: 5px;
-    color: #DC3545;
+    color: #055160;
 }
 
 .seven-wonders-project:hover {
     color: #f8d7da;
-    background-color: #DC3545;
+    background-color: #055160;
     padding: 5px;
     border-radius: 1rem;
 }
