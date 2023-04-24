@@ -104,9 +104,9 @@
           <div class="container education-exp">
             <h3 class="font-weight-light">Education</h3>
             <ul>
-              <li>React and Node.js - Spark Academy/Full-Stack Development - The Shortcut - August 2022 ongoing. </li>
-              <li> Java & Angular - Business College Helsinki - August 2021
-                ongoing.
+              <li>React and Node.js - Spark Academy/Full-Stack Development - The Shortcut - August 2022 - December 2022.
+              </li>
+              <li> Java & Angular - Business College Helsinki - August 2021- January 2023.
               </li>
               <li>
                 Bachelor Degree of Management - Constantin Brancoveanu University
@@ -139,7 +139,7 @@
               <div class="col-lg col-md-6 py-3">
                 <h5>IDE, Databases & Design</h5>
                 <p>Visual Studio</p>
-                <p>SQL</p>
+                <p>MongoDB</p>
                 <p>PostgreSQL and Neon</p>
                 <p>Adobe Illustrator</p>
               </div>
@@ -157,25 +157,15 @@
             <h2 class="text-center font-weight-light mb-2">Projects</h2>
             <div class="row py-5 align-items-center justify-content-center" data-aos="zoom-in">
 
-
               <div class="col-md-3 col-sm-4 col-6 py-2 shadow project">
-                <a href="https://tabular-data-from-sparql.netlify.app/" target="_blank">
+                <a href="https://hsl-ui.netlify.app/" target="_blank">
+                  <img src="/images/hsl.png" class="img-fluid shadow rounded" />
+                </a>
+              </div>
+              <div class="col-md-3 col-sm-4 col-6 py-2 shadow project">
+                <a href="https://tabular-data-from-sparql.netlify.app/?SELECT%20%3Fwikipedia%20WHERE%20%7B%0A%20%20%3Fwikipedia%20wikibase%3AwikiGroup%20%22wikipedia%22.%0A%7D"
+                  target="_blank">
                   <img src="/images/tabular-data.PNG" class="img-fluid shadow rounded" />
-                </a>
-              </div>
-              <div class="col-md-3 col-sm-4 col-6 py-2 shadow project">
-                <a href="https://scientists-cards-carousel.netlify.app" target="_blank">
-                  <img src="/images/scientists.PNG" class="img-fluid shadow rounded" />
-                </a>
-              </div>
-              <div class="col-md-3 col-sm-4 col-6 py-2 shadow project">
-                <a href="https://rest-countries-r.netlify.app/" target="_blank">
-                  <img src="/images/rest-countries.PNG" class="img-fluid shadow rounded" />
-                </a>
-              </div>
-              <div class="col-md-3 col-sm-4 col-6 py-2 shadow project">
-                <a href="https://users-react.netlify.app/" target="_blank">
-                  <img src="/images/users.PNG" class="img-fluid shadow rounded" />
                 </a>
               </div>
               <div class="col-md-3 col-sm-4 col-6 py-2 shadow project">
@@ -184,10 +174,21 @@
                 </a>
               </div>
               <div class="col-md-3 col-sm-4 col-6 py-2 shadow project">
-                <a href="https://coffee-noora.herokuapp.com/" target="_blank">
-                  <img src="/images/example_2.PNG" class="img-fluid shadow rounded" />
+                <a href="https://rest-countries-r.netlify.app/" target="_blank">
+                  <img src="/images/countries.png" class="img-fluid shadow rounded" />
                 </a>
               </div>
+              <div class="col-md-3 col-sm-4 col-6 py-2 shadow project">
+                <a href="https://scientists-cards-carousel.netlify.app" target="_blank">
+                  <img src="/images/scientists.PNG" class="img-fluid shadow rounded" />
+                </a>
+              </div>
+              <div class="col-md-3 col-sm-4 col-6 py-2 shadow project">
+                <a href="https://users-react.netlify.app/" target="_blank">
+                  <img src="/images/users.PNG" class="img-fluid shadow rounded" />
+                </a>
+              </div>
+
               <div class="col-md-3 col-sm-4 col-6 py-2 shadow project">
                 <a href="https://portfolio-business-college.joeclos1.repl.co/" target="_blank">
                   <img src="/images/example_12.PNG" class="img-fluid shadow rounded" />
@@ -247,273 +248,325 @@
 
           <div class="py-2 education-exp">
             <h3 class="font-weight-light">Experience</h3>
-            <div class="row no-gutters">
+            <div class="row no-gutters ">
+              <div class="col-md">
+                <!--spacer-->
+              </div>
+              <!-- ITEM 1-->
               <div class="col-md py-2" data-aos="zoom-in">
-                <div class="card border border-primary shadow color-blue">
-                  <div class="card-body first-project">
-                    <h4 class="card-title mb-0">Project Rest Countries</h4>
-                    <h6 class="card-title mb-0">
-                      <span> <i class="fa-solid fa-calendar-days"></i></span> Dec 2022
+                <div class="card border-info shadow">
+                  <div class="card-body info">
+                    <h4 class="card-title text-info mb-0">
+                      Helsinki City Bikes
+                    </h4>
+                    <h6 class="card-title text-info mb-0">
+                      <span> <i class="fa-solid fa-calendar-days"></i></span>
+                      Mar 2023 - Apr 2023
                     </h6>
-                    <div class="small font-italic">
+                    <div class="small font-italic text-info">
                       <span><i class="fa-solid fa-location-dot"></i></span>
                       Helsinki, Finland
                     </div>
-                    <hr class="first-project-color" />
-                    <p class="card-text mt-2">
-                      Application that displays a list of countries, showing some information, and opens additional page
-                      when
-                      clicking on individual country from the list, showing more information.
+                    <hr class="text-info">
+                    <p class="card-text mt-2 text-info">
+                      Web application that uses a backend service to fetch data from the database and displays journeys
+                      made with city bike in the Helsinki Capital area. Additionally, the app displays a map, where the
+                      user can visualize all the city bikes stations, with a separate UI for stations and individual
+                      station's details and map. Stations can be added in the database.
+                    </p>
+                    <p class="card-text mt-2 text-info">
+                      Technologies used:
+                    <ul class="text-info">
+                      <li>UI:</li>
+                      <ul>
+                        <li>React, MUI.</li>
+                      </ul>
+                      <li>Backend:</li>
+                      <ul>
+                        <li>Node.js, Express, MongoDB.</li>
+                      </ul>
+                    </ul>
                     </p>
                     <p>
-                      The project is built with React and use REST Countries API to fetch the data.
-                    </p>
-                    <p>
-                      <span><i class="fa-solid fa-hand-point-right first-project-hand fontawesome"> </i></span>
-                      <a href="https://rest-countries-r.netlify.app/" target="_blank" class="first-project-link color-blue"> Rest Countries
+                      <span><i class="fa-solid fa-hand-point-right text-info fontawesome"> </i></span>
+                      <a id="info" href="https://hsl-ui.netlify.app/" target="_blank">
+                        Helsinki City Bikes
                       </a>
                     </p>
                   </div>
                 </div>
               </div>
-              <div class="col-md-1 text-center flex-column d-none d-md-flex">
-                <div class="row h-50">
-                  <div class="col border-right">&nbsp;</div>
-                  <div class="col">&nbsp;</div>
-                </div>
-                <div class="row h-50">
-                  <div class="col border-right">&nbsp;</div>
-                  <div class="col">&nbsp;</div>
-                </div>
-              </div>
-              <div class="col-md">
-                <!--spacer-->
-              </div>
             </div>
-
-            <!-- timeline item 1 -->
-            <div class="row no-gutters ">
-              <div class="col-md">
-                <!--spacer-->
-              </div>
-              <!-- timeline item 1 event content -->
-              <div class="col-md py-2" data-aos="zoom-in">
-                <div class="card border-success shadow">
-                  <div class="card-body green">
-                    <h4 class="card-title text-success mb-0">
-                      Project of Studies - The Shortcut Spark Academy &#38; Wikimedia Finland
-                    </h4>
-                    <h6 class="card-title text-success mb-0">
-                      <span> <i class="fa-solid fa-calendar-days"></i></span>
-                      Nov 2022 - Dec 2022
-                    </h6>
-                    <div class="small font-italic text-success">
-                      <span><i class="fa-solid fa-location-dot"></i></span>
-                      Helsinki, Finland
-                    </div>
-                    <hr class="text-success">
-                    <p class="card-text mt-2 text-success">
-                      The application is built as a tool, that executes a SPARQL query and save the result on the
-                      Wikimedia Commons, in tabular data format. The user can preview the query in query.wikidata.
-                    </p>
-                    <p class="card-text mt-2 text-success">
-                      The project is built with React and Node.js.
-                      Boot.
-                    </p>
-                    <p>
-                      <span><i class="fa-solid fa-hand-point-right text-success fontawesome"> </i></span>
-                      <a href="https://tabular-data-from-sparql.netlify.app/" target="_blank" class="text-success"
-                        id="green">Tabular Data from SPARQL</a>
-                    </p>
-                    </p>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <!--/row-->
-            <!-- timeline item 2 -->
-            <div class="row no-gutters">
-              <div class="col-md py-2" data-aos="zoom-in">
-                <div class="card border-warning shadow">
-                  <div class="card-body yellow">
-                    <h4 class="card-title mb-0">Project of Studies - Business College Helsinki &#38; CGI</h4>
-                    <h6 class="card-title mb-0">
-                      <span> <i class="fa-solid fa-calendar-days"></i></span> Apr 2022 - May 2022
-                    </h6>
-                    <div class="small font-italic">
-                      <span><i class="fa-solid fa-location-dot"></i></span>
-                      Helsinki, Finland
-                    </div>
-                    <hr class="text-warning" />
-                    <p class="card-text mt-2">
-                      As part of our degree, we created an
-                      application that retrieves data from MyHelsinki API and
-                      shows places of interests nearby. My
-                      responsibilities included programming as well as scrum
-                      master for our team.
-                    </p>
-                    <p>
-                      The project is built with Angular, Bootstrap and Spring
-                      Boot.
-                    </p>
-                    <p>
-                      <span><i class="fa-solid fa-hand-point-right yellow fontawesome"> </i></span>
-                      Oma Helsinki
-                    </p>
-                  </div>
-                </div>
-              </div>
-              <div class="col-md-1 text-center flex-column d-none d-md-flex">
-                <div class="row h-50">
-                  <div class="col border-right">&nbsp;</div>
-                  <div class="col">&nbsp;</div>
-                </div>
-                <div class="row h-50">
-                  <div class="col border-right">&nbsp;</div>
-                  <div class="col">&nbsp;</div>
-                </div>
-              </div>
-              <div class="col-md">
-                <!--spacer-->
-              </div>
-            </div>
-            <!--/row-->
-            <!-- timeline item 3 -->
-            <div class="row no-gutters">
-              <div class="col-md">
-                <!--spacer-->
-              </div>
-              <div class="col-md-1 text-center flex-column d-none d-md-flex">
-                <div class="row h-50">
-                  <div class="col border-right">&nbsp;</div>
-                  <div class="col">&nbsp;</div>
-                </div>
-                <div class="row h-50">
-                  <div class="col border-right">&nbsp;</div>
-                  <div class="col">&nbsp;</div>
-                </div>
-              </div>
-              <div class="col-md py-2" data-aos="zoom-in">
-                <div class="card border-danger shadow">
-                  <div class="card-body pink">
-                    <h4 class="card-title mb-0 text-danger">Project of Studies</h4>
-                    <h6 class="card-title mb-0 text-danger">
-                      <span> <i class="fa-solid fa-calendar-days"></i></span> Mar 2022
-                    </h6>
-                    <div class="small font-italic text-danger">
-                      <span><i class="fa-solid fa-location-dot"></i></span>
-                      Helsinki, Finland
-                    </div>
-                    <hr class="text-danger">
-                    <p class="card-text mt-2 text-danger">
-                      An application that
-                      sells coffee machines and coffee related products. The
-                      user can register and login in the application and the
-                      admin can upload photos and modify products'
-                      informations in the database.
-                    </p>
-                    <p class="card-text mt-2 text-danger">
-                      The application is built with Spring Boot, H2
-                      database, Bootstrap and CSS.
-                    </p>
-                    <p>
-                      <span><i class="fa-solid fa-hand-point-right text-danger fontawesome"> </i></span>
-                      <a class="text-danger" id="red" href="https://coffee-noora.herokuapp.com/" target="_blank">Noora's
-                        Coffee
-                        Shop</a>
-                    </p>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <!--/row-->
-            <!-- timeline item 4 -->
-            <div class="row no-gutters">
-              <div class="col-md py-2" data-aos="zoom-in">
-                <div class="card border-info shadow">
-                  <div class="card-body blue">
-                    <h4 class="card-title mb-0">
-                      Project of Studies </h4>
-                    <h6 class="card-title mb-0">
-                      <span>
-                        <i class="fa-solid fa-calendar-days"></i>
-                      </span>Oct 2021
-                    </h6>
-                    <div class="small font-italic">
-                      <span><i class="fa-solid fa-location-dot"></i></span>
-                      Helsinki, Finland
-                    </div>
-                    <hr>
-                    <p class="card-text mt-2">
-                      My first project, built with HTML, Bootstrap, Javascript
-                      and CSS is a team project. Our 3 developers team created
-                      a travel website that displays
-                      the seven wonders of the World
-                    </p>
-                    <p>
-                      <span><i class="fa-solid fa-hand-point-right blue fontawesome"> </i></span>
-                      <a class="seven-wonders-project" href="https://joeclos.github.io/projet-2/" target="_blank">Seven
-                        Wonders</a>
-                    </p>
-
-                  </div>
-                </div>
-              </div>
-              <div class="col-md-1 text-center flex-column d-none d-md-flex">
-                <div class="row h-50">
-                  <div class="col border-right">&nbsp;</div>
-                  <div class="col">&nbsp;</div>
-                </div>
-                <div class="row h-50">
-                  <div class="col">&nbsp;</div>
-                  <div class="col">&nbsp;</div>
-                </div>
-              </div>
-              <div class="col-md">
-                <!--spacer-->
-              </div>
-            </div>
-            <!--/row-->
           </div>
-        </section>
-
-        <footer class="bg-light py-5 mt-5" id="contact">
-          <div class="container">
-            <h2 class="font-weight-light contact">Reach Out</h2>
-            <div class="row">
-              <div class="col-md-3 col-sm-6">
-                <ul class="nav flex-column">
-                  <li class="nav-item">
-                    <i class="fa fa-mobile fa-lg"></i> +358 403 781 794
-                  </li>
-                  <li class="nav-item envelope">
-                    <a href="mailto:">
-                      <span> <i class="fa-solid fa-envelope"></i></span>
-                      josephine.closan@yahoo.com</a>
-                  </li>
-                </ul>
-              </div>
-              <div class="col-md-4 ml-auto text-right">
-                <ul class="nav justify-content-end">
-                  <li class="nav-item">
-                    <a href="https://github.com/JoeClos" class="nav-link pr-0 brands-icons" target="_blank">
-                      <i class="fa-brands fa-github-square"></i>
+          <div class="row no-gutters">
+            <div class="col-md py-2" data-aos="zoom-in">
+              <div class="card border border-primary shadow color-blue">
+                <div class="card-body first-project">
+                  <h4 class="card-title mb-0">Project Rest Countries</h4>
+                  <h6 class="card-title mb-0">
+                    <span> <i class="fa-solid fa-calendar-days"></i></span> Dec 2022
+                  </h6>
+                  <div class="small font-italic">
+                    <span><i class="fa-solid fa-location-dot"></i></span>
+                    Helsinki, Finland
+                  </div>
+                  <hr class="first-project-color" />
+                  <p class="card-text mt-2">
+                    Application that displays a list of countries, showing some information, and opens additional page
+                    when
+                    clicking on individual country from the list, showing more information.
+                  </p>
+                  <p>
+                    The project is built with React and use REST Countries API to fetch the data.
+                  </p>
+                  <p>
+                    <span><i class="fa-solid fa-hand-point-right first-project-hand fontawesome"> </i></span>
+                    <a href="https://rest-countries-r.netlify.app/" target="_blank"
+                      class="first-project-link color-blue"> Rest Countries
                     </a>
-                  </li>
-                  <li class="nav-item">
-                    <a href="https://www.linkedin.com/in/josephine-closan/" class="nav-link pr-0 brands-icons"
-                      target="_blank"><i class="fa-brands fa-linkedin"></i></a>
-                  </li>
-                </ul>
+                  </p>
+                </div>
               </div>
-              <div class="col-12 text-right small copyright">
-                @2022 Josephine Closan
+            </div>
+            <div class="col-md-1 text-center flex-column d-none d-md-flex">
+              <div class="row h-50">
+                <div class="col border-right">&nbsp;</div>
+                <div class="col">&nbsp;</div>
+              </div>
+              <div class="row h-50">
+                <div class="col border-right">&nbsp;</div>
+                <div class="col">&nbsp;</div>
+              </div>
+            </div>
+            <div class="col-md">
+              <!--spacer-->
+            </div>
+          </div>
+
+          <!-- ITEM 2-->
+          <div class="row no-gutters ">
+            <div class="col-md">
+              <!--spacer-->
+            </div>
+            <!-- timeline item 1 event content -->
+            <div class="col-md py-2" data-aos="zoom-in">
+              <div class="card border-success shadow">
+                <div class="card-body green">
+                  <h4 class="card-title text-success mb-0">
+                    Project of Studies - The Shortcut Spark Academy &#38; Wikimedia Finland
+                  </h4>
+                  <h6 class="card-title text-success mb-0">
+                    <span> <i class="fa-solid fa-calendar-days"></i></span>
+                    Nov 2022 - Dec 2022
+                  </h6>
+                  <div class="small font-italic text-success">
+                    <span><i class="fa-solid fa-location-dot"></i></span>
+                    Helsinki, Finland
+                  </div>
+                  <hr class="text-success">
+                  <p class="card-text mt-2 text-success">
+                    The application is built as a tool that executes a SPARQL query and save the result on the
+                    Wikimedia Commons, in tabular data format. The user can preview the query in query.wikidata.
+                  </p>
+                  <p class="card-text mt-2 text-success">
+                    The project is built with React and Node.js.
+                    Boot.
+                  </p>
+                  <p>
+                    <span><i class="fa-solid fa-hand-point-right text-success fontawesome"> </i></span>
+                    <a href="https://tabular-data-from-sparql.netlify.app/?SELECT%20%3Fwikipedia%20WHERE%20%7B%0A%20%20%3Fwikipedia%20wikibase%3AwikiGroup%20%22wikipedia%22.%0A%7D"
+                      target="_blank" class="text-success" id="green">Tabular Data from SPARQL</a>
+                  </p>
+                  </p>
+                </div>
               </div>
             </div>
           </div>
-        </footer>
-      </main>
+          <!--/row-->
+          <!-- ITEM 3-->
+          <div class="row no-gutters">
+            <div class="col-md py-2" data-aos="zoom-in">
+              <div class="card border-warning shadow">
+                <div class="card-body yellow">
+                  <h4 class="card-title mb-0">Project of Studies - Business College Helsinki &#38; CGI - Team Project
+                  </h4>
+                  <h6 class="card-title mb-0">
+                    <span> <i class="fa-solid fa-calendar-days"></i></span> Apr 2022 - May 2022
+                  </h6>
+                  <div class="small font-italic">
+                    <span><i class="fa-solid fa-location-dot"></i></span>
+                    Helsinki, Finland
+                  </div>
+                  <hr class="text-warning" />
+                  <p class="card-text mt-2">
+                    As part of my degree, we created an
+                    application that retrieves data from MyHelsinki API and
+                    shows places of interests nearby along with events and activities. My
+                    responsibilities included programming as well as scrum
+                    master for our 3rd Sprint.
+                  </p>
+                  <p>
+                    The project is built with Angular, Bootstrap and Spring
+                    Boot.
+                  </p>
+                  <p>
+                    <span><i class="fa-solid fa-hand-point-right yellow fontawesome"> </i></span>
+                    Oma Helsinki
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-1 text-center flex-column d-none d-md-flex">
+              <div class="row h-50">
+                <div class="col border-right">&nbsp;</div>
+                <div class="col">&nbsp;</div>
+              </div>
+              <div class="row h-50">
+                <div class="col border-right">&nbsp;</div>
+                <div class="col">&nbsp;</div>
+              </div>
+            </div>
+            <div class="col-md">
+              <!--spacer-->
+            </div>
+          </div>
+          <!--/row-->
+          <!-- ITEM 4-->
+          <div class="row no-gutters">
+            <div class="col-md">
+              <!--spacer-->
+            </div>
+            <div class="col-md-1 text-center flex-column d-none d-md-flex">
+              <div class="row h-50">
+                <div class="col border-right">&nbsp;</div>
+                <div class="col">&nbsp;</div>
+              </div>
+              <div class="row h-50">
+                <div class="col border-right">&nbsp;</div>
+                <div class="col">&nbsp;</div>
+              </div>
+            </div>
+            <div class="col-md py-2" data-aos="zoom-in">
+              <div class="card border-danger shadow">
+                <div class="card-body pink">
+                  <h4 class="card-title mb-0 text-danger">Project of Studies - Individual Project</h4>
+                  <h6 class="card-title mb-0 text-danger">
+                    <span> <i class="fa-solid fa-calendar-days"></i></span> Mar 2022
+                  </h6>
+                  <div class="small font-italic text-danger">
+                    <span><i class="fa-solid fa-location-dot"></i></span>
+                    Helsinki, Finland
+                  </div>
+                  <hr class="text-danger">
+                  <p class="card-text mt-2 text-danger">
+                    An application that
+                    sells coffee machines and coffee related products. The
+                    user can register and login in the application and the
+                    admin can upload photos and modify products
+                    informations in the database.
+                  </p>
+                  <p class="card-text mt-2 text-danger">
+                    The application is built with Spring Boot, H2 embedded relational
+                    database, Bootstrap and CSS.
+                  </p>
+                  <p>
+                    <span><i class="fa-solid fa-hand-point-right text-danger fontawesome"> </i></span>
+                    <a class="text-danger" id="red" href="https://coffee-noora.herokuapp.com/" target="_blank">Noora's
+                      Coffee
+                      Shop</a>
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!--/row-->
+          <!-- ITEM 5 -->
+          <div class="row no-gutters">
+            <div class="col-md py-2" data-aos="zoom-in">
+              <div class="card border-info shadow">
+                <div class="card-body blue">
+                  <h4 class="card-title mb-0">
+                    Project of Studies - Team Project </h4>
+                  <h6 class="card-title mb-0">
+                    <span>
+                      <i class="fa-solid fa-calendar-days"></i>
+                    </span>Oct 2021
+                  </h6>
+                  <div class="small font-italic">
+                    <span><i class="fa-solid fa-location-dot"></i></span>
+                    Helsinki, Finland
+                  </div>
+                  <hr>
+                  <p class="card-text mt-2">
+                    My first static website project, built with HTML, Bootstrap, JavaScript
+                    and CSS is a team project. Our 3 developers team created
+                    a travel website that displays
+                    the Seven Wonders of the World as a destination.
+                  </p>
+                  <p>
+                    <span><i class="fa-solid fa-hand-point-right blue fontawesome"> </i></span>
+                    <a class="seven-wonders-project" href="https://joeclos.github.io/projet-2/" target="_blank">Seven
+                      Wonders</a>
+                  </p>
+
+                </div>
+              </div>
+            </div>
+            <div class="col-md-1 text-center flex-column d-none d-md-flex">
+              <div class="row h-50">
+                <div class="col border-right">&nbsp;</div>
+                <div class="col">&nbsp;</div>
+              </div>
+              <div class="row h-50">
+                <div class="col">&nbsp;</div>
+                <div class="col">&nbsp;</div>
+              </div>
+            </div>
+            <div class="col-md">
+              <!--spacer-->
+            </div>
+          </div>
+          <!--/row-->
     </div>
+    </section>
+
+    <footer class="bg-light py-5 mt-5" id="contact">
+      <div class="container">
+        <h2 class="font-weight-light contact">Reach Out</h2>
+        <div class="row">
+          <div class="col-md-3 col-sm-6">
+            <ul class="nav flex-column">
+              <li class="nav-item">
+                <i class="fa fa-mobile fa-lg"></i> +358 403 781 794
+              </li>
+              <li class="nav-item envelope">
+                <a href="mailto:">
+                  <span> <i class="fa-solid fa-envelope"></i></span>
+                  josephine.closan@yahoo.com</a>
+              </li>
+            </ul>
+          </div>
+          <div class="col-md-4 ml-auto text-right">
+            <ul class="nav justify-content-end">
+              <li class="nav-item">
+                <a href="https://github.com/JoeClos" class="nav-link pr-0 brands-icons" target="_blank">
+                  <i class="fa-brands fa-github-square"></i>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a href="https://www.linkedin.com/in/josephine-closan/" class="nav-link pr-0 brands-icons"
+                  target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+              </li>
+            </ul>
+          </div>
+          <div class="col-12 text-right small copyright">
+            @2022 Josephine Closan
+          </div>
+        </div>
+      </div>
+    </footer>
+    </main>
+  </div>
   </div>
 
   <!-- AOS data -->
