@@ -122,6 +122,14 @@ div .fa-location-dot  {
   border-radius: 1rem;
 }
 
+#yellow{
+  color: #4d3c06 ;
+}
+
+#yellow:hover{
+  color: #FDF3D2 ;
+}
+
 .yellow a {
   text-decoration: none;
   margin-left: 5px;
