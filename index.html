@@ -13,7 +13,7 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" />
 
   <link rel="stylesheet" href="layout.css" />
-
+  <script src="https://kit.fontawesome.com/fa55709c7c.js" crossorigin="anonymous"></script>
   <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.slim.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
@@ -29,7 +29,7 @@
           id="sidebar">
           <div class="text-center navbar-aside-image">
             <img src="/images/joe.jpg" width="60%" class="rounded-circle my-4 d-none d-md-block p-1 shadow" />
-            <a class="navbar-brand mx-0 font-weight-bold text-nowrap about-me " href="#about">Josephine Closan</a>
+            <a class="navbar-brand mx-0 font-weight-bold text-nowrap about-me " href="#about" >Josephine Closan</a>
           </div>
           <button class="navbar-toggler border-0 order-1" type="button" data-toggle="collapse" data-target="#nav"
             aria-controls="nav" aria-expanded="false" aria-label="Toggle navigation">
@@ -58,15 +58,15 @@
           </div>
           <ul class="nav justify-content-center">
             <li class="nav-item">
-              <a href="mailto:josephine.closan@yahoo.com" target="_blank" class="nav-link px-2  first-ul"><i
+              <a href="mailto:josephine.closan@yahoo.com" target="_blank" rel="noopener noreferrer" class="nav-link px-2  first-ul"><i
                   class="fa fa-envelope fa-lg"></i></a>
             </li>
             <li class="nav-item">
-              <a href="https://www.linkedin.com/in/josephine-closan/" target="_blank" class="nav-link px-2  first-ul"><i
+              <a href="https://www.linkedin.com/in/josephine-closan/" target="_blank" rel="noopener noreferrer" class="nav-link px-2  first-ul"><i
                   class="fa-brands fa-linkedin fa-lg"></i></a>
             </li>
             <li class="nav-item">
-              <a href="https://github.com/JoeClos" target="_blank" class="nav-link px-2 first-ul"><i
+              <a href="https://github.com/JoeClos" target="_blank" rel="noopener noreferrer" class="nav-link px-2 first-ul"><i
                   class="fa-brands fa-github-square fa-lg"></i></a>
             </li>
           </ul>
@@ -81,19 +81,22 @@
             </span>
           </h1>
           <p>
-            I am an enthusiastic coding learner, with a passion for technology
+            I am an enthusiastic front-end developer, with a passion for technology
             and innovation.
-            <br> I especially enjoy development, working with
-            API’s, responsive design and development. I am looking to join an
-            organization where opportunity for growth and professional
-            development is embraced.
+            <br> I especially enjoy creating useful and friendly UI's, working with
+            API's and responsive design.
+            <br>
+            I would describe myself as a life long learner, curious and eager to achieve knowledge. Finally I would like
+            to challenge myself and to get out of my comfort zone, working and collaborating with talented individuals
+            and teams, learn from their experiences, and showcase my abilities in the dynamic environment of
+            front-end/web development.
           </p>
           <p>
             To learn more about me, keep exploring my site
             <span><i class="fa-solid fa-circle-down"></i></span>
           </p>
-          <a role="button" class="btn btn-outline-dark align-center"
-            href="./images/Josephine_Closan_resume.pdf">Download my
+          <a role="button" class="btn btn-outline-dark align-center" href="./images/Josephine_resume.pdf"
+            target="_blank" rel="noopener noreferrer">Download my
             CV
             <span>
               <i class="far fa-file-pdf fa-lg"></i>
@@ -104,9 +107,9 @@
           <div class="container education-exp">
             <h3 class="font-weight-light">Education</h3>
             <ul>
-              <li>React and Node.js - Spark Academy/Full-Stack Development - The Shortcut - August 2022 - December 2022.
-              </li>
               <li> Java & Angular - Business College Helsinki - August 2021- January 2023.
+              </li>
+              <li>React and Node.js - Spark Academy/Full-Stack Development - The Shortcut - August 2022 - December 2022.
               </li>
               <li>
                 Bachelor Degree of Management - Constantin Brancoveanu University
@@ -124,15 +127,15 @@
               <div class="col-lg col-md-6 py-3">
                 <h5>Languages</h5>
 
-                <p>Java</p>
                 <p>JavaScript</p>
+                <p>Java</p>
                 <p>Node.js</p>
                 <p>HTML5/CSS3</p>
               </div>
               <div class="col-lg col-md-6 py-3">
                 <h5>Frameworks</h5>
-                <p>Angular</p>
                 <p>React</p>
+                <p>Angular</p>
                 <p>Spring Boot</p>
                 <p>Bootstrap</p>
               </div>
@@ -140,13 +143,13 @@
                 <h5>IDE, Databases & Design</h5>
                 <p>Visual Studio</p>
                 <p>MongoDB</p>
-                <p>PostgreSQL and Neon</p>
+                <p>SQL</p>
                 <p>Adobe Illustrator</p>
               </div>
               <div class="col-lg col-md-6 py-3">
                 <h5>Platforms</h5>
                 <p>Heroku</p>
-                <p>Google Firebase</p>
+                <p>Jira</p>
                 <p>Microsoft Azure</p>
               </div>
             </div>
@@ -158,86 +161,130 @@
             <div class="row py-5 align-items-center justify-content-center" data-aos="zoom-in">
 
               <div class="col-md-3 col-sm-4 col-6 py-2 shadow project">
-                <a href="https://hsl-ui.netlify.app/" target="_blank">
+                <p class="project-title"><i>Helsinki City Bikes</i></p>
+                <a href="https://hsl-ui.netlify.app/" target="_blank" rel="noopener noreferrer">
                   <img src="/images/hsl.png" class="img-fluid shadow rounded" />
                 </a>
+                <div  class="github"><a href="https://github.com/JoeClos/hsl" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-github"></i></a></div>
               </div>
               <div class="col-md-3 col-sm-4 col-6 py-2 shadow project">
+                <p class="project-title"><i>The Movie DB</i></p>
+                <a href="https://mdb-q81s.onrender.com/" target="_blank" rel="noopener noreferrer">
+                  <img src="/images/movie_db.png" class="img-fluid shadow rounded" />
+                </a>
+                <div  class="github"><a href="https://github.com/JoeClos/TMDB-movies/tree/main" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-github"></i></a></div>
+              </div>
+              <div class="col-md-3 col-sm-4 col-6 py-2 shadow project">
+                <p class="project-title"><i>Tabular Data from SPARQL</i></p>
                 <a href="https://tabular-data-from-sparql.netlify.app/?SELECT%20%3Fwikipedia%20WHERE%20%7B%0A%20%20%3Fwikipedia%20wikibase%3AwikiGroup%20%22wikipedia%22.%0A%7D"
-                  target="_blank">
+                  target="_blank" rel="noopener noreferrer">
                   <img src="/images/tabular-data.PNG" class="img-fluid shadow rounded" />
                 </a>
+                <div class="github"><a href="https://github.com/JoeClos/listeria-bot" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-github"></i></a></div>
+
               </div>
               <div class="col-md-3 col-sm-4 col-6 py-2 shadow project">
+                <p class="project-title"><i>Seven Wonders</i></p>
                 <a href="https://joeclos.github.io/projet-2/" target="_blank">
                   <img src="/images/example_3.PNG" class="img-fluid shadow rounded" />
                 </a>
+                <div class="github"><a href="https://github.com/JoeClos/projet-2" target="_blank"><i class="fa-brands fa-github"></i></a></div>
+
               </div>
               <div class="col-md-3 col-sm-4 col-6 py-2 shadow project">
+                <p class="project-title"><i>Countries list</i></p>
                 <a href="https://rest-countries-r.netlify.app/" target="_blank">
                   <img src="/images/countries.png" class="img-fluid shadow rounded" />
                 </a>
+                <div class="github"><a href="https://github.com/JoeClos/rest-countries" target="_blank"><i class="fa-brands fa-github"></i></a></div>
+
               </div>
               <div class="col-md-3 col-sm-4 col-6 py-2 shadow project">
-                <a href="https://scientists-cards-carousel.netlify.app" target="_blank">
+                <p class="project-title"><i>Amazing scientists</i></p>
+                <a href="https://scientists-cards-carousel.netlify.app" target="_blank" rel="noopener noreferrer">
                   <img src="/images/scientists.PNG" class="img-fluid shadow rounded" />
                 </a>
+                <div class="github"><a href="https://github.com/JoeClos/scientists-cards/tree/main" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-github"></i></a></div>
+
               </div>
-              <div class="col-md-3 col-sm-4 col-6 py-2 shadow project">
-                <a href="https://users-react.netlify.app/" target="_blank">
+              <!-- <div class="col-md-3 col-sm-4 col-6 py-2 shadow project">
+                <a href="https://users-react.netlify.app/" target="_blank" rel="noopener noreferrer">
                   <img src="/images/users.PNG" class="img-fluid shadow rounded" />
                 </a>
-              </div>
+                <div class="github"><i class="fa-brands fa-github"></i></div>
+
+              </div> -->
 
               <div class="col-md-3 col-sm-4 col-6 py-2 shadow project">
-                <a href="https://portfolio-business-college.joeclos1.repl.co/" target="_blank">
+                <p class="project-title"><i>Business College Helsinki - Portfolio</i></p>
+                <a href="https://portfolio-business-college.joeclos1.repl.co/" target="_blank" rel="noopener noreferrer">
                   <img src="/images/example_12.PNG" class="img-fluid shadow rounded" />
                 </a>
+                <div class="github"><a href="https://github.com/JoeClos/portfolio-business-college/tree/main" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-github"></i></a></div>
+
               </div>
 
               <div class="col-md-3 col-sm-4 col-6 py-2 shadow project">
-                <a href="https://helsinki-ui.azurewebsites.net" target="_blank">
-                  <img src="/images/example_1.png" width="300" class="img-fluid shadow rounded" />
+                <p class="project-title"><i>Helsinki Sights</i></p>
+                <a href="#" target="_blank">
+                  <img src="/images/oma_helsinki.png" width="300" class="img-fluid shadow rounded" />
                 </a>
+                <div class="github"><a href="https://github.com/JoeClos/helsinki_sights/tree/main" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-github"></i></a></div>
+
               </div>
               <div class="col-md-3 col-sm-4 col-6 py-2 shadow project">
+                <p class="project-title"><i>One page website</i></p>
                 <a href="https://portfolio-business-college.joeclos1.repl.co/ohjelmistokehittaja/ohjelmointi/html5-ja-css3/one-page-site/"
-                  target="_blank">
+                  target="_blank" rel="noopener noreferrer">
                   <img src="/images/example_4.PNG" class="img-fluid shadow rounded" />
                 </a>
+                <div class="github"><a href="https://github.com/JoeClos/portfolio-bc/tree/main/ohjelmistokehittaja/ohjelmointi/html5-ja-css3/one-page-site" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-github"></i></a></div>
+
               </div>
-              <div class="col-md-3 col-sm-4 col-6 py-2 shadow project">
+              <!-- <div class="col-md-3 col-sm-4 col-6 py-2 shadow project">
                 <a href="https://portfolio-business-college.joeclos1.repl.co/ohjelmistokehittaja/ohjelmistokehittajana-toimiminen/ohjelmistokehitysprojekti-1/LOGO_example.svg"
-                  target="_blank">
+                  target="_blank" rel="noopener noreferrer">
                   <img src="/images/example_5.PNG" class="img-fluid shadow rounded" />
                 </a>
-              </div>
-              <div class="col-md-3 col-sm-4 col-6 py-2 shadow project">
-                <a href="https://joeclos.github.io/warning-et-success/" target="_blank">
+                <div class="github"><i class="fa-brands fa-github"></i></div>
+
+              </div> -->
+              <!-- <div class="col-md-3 col-sm-4 col-6 py-2 shadow project">
+                <a href="https://joeclos.github.io/warning-et-success/" target="_blank" rel="noopener noreferrer">
                   <img src="/images/example_6.PNG" class="img-fluid shadow rounded" />
                 </a>
+                <div class="github"><i class="fa-brands fa-github"></i></div>
+
               </div>
               <div class="col-md-3 col-sm-4 col-6 py-2 shadow project">
-                <a href="https://joeclos.github.io/scrimba/customers" target="_blank">
+                <a href="https://joeclos.github.io/scrimba/customers" target="_blank" rel="noopener noreferrer">
                   <img src="/images/example_7.PNG" class="img-fluid shadow rounded" />
                 </a>
+                <div class="github"><i class="fa-brands fa-github"></i></div>
+
               </div>
 
               <div class="col-md-3 col-sm-4 col-6 py-2 shadow project">
-                <a href="https://joeclos.github.io/phone-catalog/phone-list" target="_blank">
+                <a href="https://joeclos.github.io/phone-catalog/phone-list" target="_blank" rel="noopener noreferrer">
                   <img src="/images/example_8.PNG" class="img-fluid shadow rounded" />
                 </a>
+                <div class="github"><i class="fa-brands fa-github"></i></div>
+
               </div>
               <div class="col-md-3 col-sm-4 col-6 py-2 shadow project">
-                <a href="https://my-store-79af1.web.app/" target="_blank">
+                <a href="https://my-store-79af1.web.app/" target="_blank" rel="noopener noreferrer">
                   <img src="/images/example_9.PNG" class="img-fluid shadow rounded" />
                 </a>
+                <div class="github"><i class="fa-brands fa-github"></i></div>
+
               </div>
               <div class="col-md-3 col-sm-4 col-6 py-2 shadow project">
-                <a href="https://joeclos.github.io/kahvila/" target="_blank">
+                <a href="https://joeclos.github.io/kahvila/" target="_blank" rel="noopener noreferrer">
                   <img src="/images/example_10.PNG" class="img-fluid shadow rounded" />
                 </a>
-              </div>
+                <div class="github"><i class="fa-brands fa-github"></i></div>
+
+              </div> -->
 
             </div>
           </div>
@@ -289,7 +336,7 @@
                     </p>
                     <p>
                       <span><i class="fa-solid fa-hand-point-right text-info fontawesome"> </i></span>
-                      <a id="info" href="https://hsl-ui.netlify.app/" target="_blank">
+                      <a id="info" href="https://hsl-ui.netlify.app/" target="_blank" rel="noopener noreferrer">
                         Helsinki City Bikes
                       </a>
                     </p>
@@ -321,7 +368,7 @@
                   </p>
                   <p>
                     <span><i class="fa-solid fa-hand-point-right first-project-hand fontawesome"> </i></span>
-                    <a href="https://rest-countries-r.netlify.app/" target="_blank"
+                    <a href="https://rest-countries-r.netlify.app/" target="_blank" rel="noopener noreferrer"
                       class="first-project-link color-blue"> Rest Countries
                     </a>
                   </p>
@@ -375,7 +422,7 @@
                   <p>
                     <span><i class="fa-solid fa-hand-point-right text-success fontawesome"> </i></span>
                     <a href="https://tabular-data-from-sparql.netlify.app/?SELECT%20%3Fwikipedia%20WHERE%20%7B%0A%20%20%3Fwikipedia%20wikibase%3AwikiGroup%20%22wikipedia%22.%0A%7D"
-                      target="_blank" class="text-success" id="green">Tabular Data from SPARQL</a>
+                      target="_blank" rel="noopener noreferrer" class="text-success" id="green">Tabular Data from SPARQL</a>
                   </p>
                   </p>
                 </div>
@@ -409,10 +456,10 @@
                     The project is built with Angular, Bootstrap and Spring
                     Boot.
                   </p>
-                  <p>
+                  <!-- <p>
                     <span><i class="fa-solid fa-hand-point-right yellow fontawesome"> </i></span>
-                    <a href="https://helsinki-ui.azurewebsites.net" target="_blank" id="yellow">Helsinki Sights</a>
-                  </p>
+                    <a href="#" target="_blank" rel="noopener noreferrer" id="yellow">Helsinki Sights</a>
+                  </p> -->
                 </div>
               </div>
             </div>
@@ -469,12 +516,12 @@
                     The application is built with Spring Boot, H2 embedded relational
                     database, Bootstrap and CSS.
                   </p>
-                  <p>
+                  <!-- <p>
                     <span><i class="fa-solid fa-hand-point-right text-danger fontawesome"> </i></span>
-                    <a class="text-danger" id="red" href="https://coffee-noora.herokuapp.com/" target="_blank">Noora's
+                    <a class="text-danger" id="red" href="https://coffee-noora.herokuapp.com/" target="_blank" rel="noopener noreferrer">Noora's
                       Coffee
                       Shop</a>
-                  </p>
+                  </p> -->
                 </div>
               </div>
             </div>
@@ -505,7 +552,7 @@
                   </p>
                   <p>
                     <span><i class="fa-solid fa-hand-point-right blue fontawesome"> </i></span>
-                    <a class="seven-wonders-project" href="https://joeclos.github.io/projet-2/" target="_blank">Seven
+                    <a class="seven-wonders-project" href="https://joeclos.github.io/projet-2/" target="_blank" rel="noopener noreferrer">Seven
                       Wonders</a>
                   </p>
 
@@ -540,7 +587,7 @@
                 <i class="fa fa-mobile fa-lg"></i> +358 403 781 794
               </li>
               <li class="nav-item envelope">
-                <a href="mailto:">
+                <a href="mailto:" rel="noopener noreferrer">
                   <span> <i class="fa-solid fa-envelope"></i></span>
                   josephine.closan@yahoo.com</a>
               </li>
@@ -549,13 +596,13 @@
           <div class="col-md-4 ml-auto text-right">
             <ul class="nav justify-content-end">
               <li class="nav-item">
-                <a href="https://github.com/JoeClos" class="nav-link pr-0 brands-icons" target="_blank">
+                <a href="https://github.com/JoeClos" class="nav-link pr-0 brands-icons" target="_blank" rel="noopener noreferrer">
                   <i class="fa-brands fa-github-square"></i>
                 </a>
               </li>
               <li class="nav-item">
                 <a href="https://www.linkedin.com/in/josephine-closan/" class="nav-link pr-0 brands-icons"
-                  target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                  target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-linkedin"></i></a>
               </li>
             </ul>
           </div>

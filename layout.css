@@ -210,6 +210,17 @@ div .fa-location-dot  {
     color: #526a8c;
 }
 
+.github {
+  font-size: 1.5rem;
+  padding: 10px;
+  text-align: center;
+}
+
+.project-title {
+  text-align: center;
+  font-weight: bold;
+}
+
 @media only screen and (min-width: 769px) {
     .about-me{ 
         font-size: 1.6rem;
