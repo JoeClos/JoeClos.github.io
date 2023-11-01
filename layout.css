@@ -71,9 +71,11 @@ div .fa-location-dot  {
 }
 .color-blue{
   color: #526A8C;
+  border-radius: 1rem;
 }
 .first-project{
   background-color: #D5DBE7;
+  border: 1px solid #526A8C;
   border-radius: 1rem;
 }
 
@@ -156,8 +158,17 @@ div .fa-location-dot  {
     border-radius: 1rem;
 }
 
-#red{
+#red a{
   text-decoration: none;
+  margin-left: 5px;
+  color: #DC3545;
+}
+
+#red a:hover {
+  color: #F8D7DA;
+  background-color: #DC3545;
+  padding: 5px;
+  border-radius: 1rem;
 }
 .seven-wonders-project {
     text-decoration: none;
@@ -271,6 +282,20 @@ div .fa-location-dot  {
 
   .project {
     margin: 1rem 1rem;
+  }
+
+
+}
+
+@media only screen and (max-width: 768px)  {
+  .project {
+    margin: 1rem;
+  }
+}
+
+@media only screen and (max-width: 376px)  {
+  .project {
+    margin: 1rem;
   }
 
 
